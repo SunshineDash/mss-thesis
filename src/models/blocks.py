@@ -23,14 +23,10 @@ class ChannelwiseLayerNorm(nn.Module):
 
     def __init__(self, channels: int, eps: float = 1e-8) -> None:
         super().__init__()
-        self.gamma = nn.Parameter(torch.ones(1, channels, 1))
-        self.beta = nn.Parameter(torch.zeros(1, channels, 1))
-        self.eps = eps
+        self.norm = nn.GroupNorm(1, channels, eps=eps)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        mean = x.mean(dim=(1, 2), keepdim=True)
-        var = ((x - mean) ** 2).mean(dim=(1, 2), keepdim=True)
-        return self.gamma * (x - mean) / (var + self.eps).sqrt() + self.beta
+        return self.norm(x)
 
 
 class DepthwiseSeparableConv1d(nn.Module):

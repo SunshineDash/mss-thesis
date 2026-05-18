@@ -8,13 +8,13 @@ data:
   root: data/musdb18hq
   sample_rate: 44100
   audio_channels: 2
-  segment_seconds: 4.0
+  segment_seconds: 2.0
   sources:
     - vocals
     - drums
     - bass
     - other
-  batch_size: 4
+  batch_size: 2
   num_workers: 2
 
 model:

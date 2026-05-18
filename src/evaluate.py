@@ -16,6 +16,7 @@ import sys
 import time
 from pathlib import Path
 
+import math
 import numpy as np
 import torch
 from tqdm import tqdm
@@ -138,14 +139,10 @@ def evaluate(config_path: str | Path, checkpoint_path: str | Path) -> None:
         T = sources_ref.shape[-1]
         separated = separated[..., :T]
 
-        # ---- SI-SDR (PyTorch, tensor) -------------------------------- #
+        # ---- SI-SDR (PyTorch, tensor) — computed per source below --- #
         sep_pt = separated.unsqueeze(0)    # [1, S, C, T]
         ref_pt = sources_ref.unsqueeze(0).to(sep_pt.device)  # [1, S, C, T]
         B, S, C, T_ = sep_pt.shape
-        si_sdr_val = compute_si_sdr(
-            sep_pt.reshape(B, S * C, T_),
-            ref_pt.reshape(B, S * C, T_),
-        )
 
         # ---- museval BSS-Eval (numpy) -------------------------------- #
         sep_np = separated.cpu().numpy()   # [S, C, T]
@@ -163,15 +160,24 @@ def evaluate(config_path: str | Path, checkpoint_path: str | Path) -> None:
 
         # ---- Per-track rows (one row per source)
         for s_idx, src_name in enumerate(sources):
+            # Per-source SI-SDR
+            si_sdr_src = compute_si_sdr(
+                sep_pt[:, s_idx, :, :].reshape(1, C, T_),
+                ref_pt[:, s_idx, :, :].reshape(1, C, T_),
+            )
+            # Guard against inf SIR (common when there is no interferer energy)
+            sir_val = track_scores["sir"][s_idx]
+            if sir_val is not None and not math.isnan(float(sir_val)) and math.isinf(float(sir_val)):
+                sir_val = float("nan")
             per_track_rows.append({
                 "experiment":        exp_name,
                 "seed":              seed,
                 "checkpoint":        str(checkpoint_path),
                 "track":             track_name,
                 "source":            src_name,
-                "si_sdr":            si_sdr_val,
+                "si_sdr":            si_sdr_src,
                 "sdr":               track_scores["sdr"][s_idx],
-                "sir":               track_scores["sir"][s_idx],
+                "sir":               sir_val,
                 "sar":               track_scores["sar"][s_idx],
                 "isr":               track_scores["isr"][s_idx],
                 "params":            n_params,

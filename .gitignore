@@ -20,7 +20,6 @@ build/
 .ipynb_checkpoints/
 
 # --- Dataset ------------------------------------------------
-data/
 MUSDB18-HQ/
 *.wav
 *.mp3

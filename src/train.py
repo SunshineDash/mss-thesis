@@ -167,10 +167,11 @@ def train(config_path: str | Path, resume: bool = False) -> None:
     wd = float(train_cfg.get("weight_decay", 0.0))
     optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=wd)
 
-    # Optional: ReduceLROnPlateau scheduler
-    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, mode="min", factor=0.5, patience=5
+    epochs = int(train_cfg.get("epochs", 100))
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer, T_max=epochs, eta_min=1e-6
     )
+
 
     # ------------------------------------------------------------------ #
     # Optionally resume                                                    #
@@ -234,7 +235,6 @@ def train(config_path: str | Path, resume: bool = False) -> None:
     # ------------------------------------------------------------------ #
     # Training loop                                                        #
     # ------------------------------------------------------------------ #
-    epochs = int(train_cfg.get("epochs", 100))
     grad_clip = float(train_cfg.get("grad_clip_norm", 5.0))
     pit = str(train_cfg.get("loss", "si_sdr")) == "pit_si_sdr"
     log_csv = Path(exp_cfg.get("output_dir", "results")) / f"{exp_name}_train_log.csv"
@@ -251,11 +251,7 @@ def train(config_path: str | Path, resume: bool = False) -> None:
             model, val_loader, optimizer=None, device=device, desc=f"Val   E{epoch+1}"
         )
 
-        old_lr = optimizer.param_groups[0]["lr"]
-        scheduler.step(val_loss)
-        new_lr = optimizer.param_groups[0]["lr"]
-        if new_lr < old_lr:
-            print(f"  ↓ LR reduced: {old_lr:.2e} → {new_lr:.2e}")
+        scheduler.step()
         lr_current = optimizer.param_groups[0]["lr"]
 
         print(
