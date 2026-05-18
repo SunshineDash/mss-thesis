@@ -49,6 +49,8 @@ for EXP in "${EXPERIMENTS[@]}"; do
             --config  "configs/${EXP}.yaml" \
             --checkpoint "${CKPT}"
         echo "  ✓ Done evaluating ${EXP}"
+        rclone copy results/ gdrive:mss-results/
+        echo "  ✓ Results synced to gdrive:mss-results/"
     else
         echo "  ⚠  Checkpoint not found: ${CKPT} — skipping evaluation."
     fi
@@ -59,3 +61,7 @@ echo "============================================================"
 echo "  All experiments complete!"
 echo "  Results saved to: results/"
 echo "============================================================"
+
+# Final sync to make sure everything is uploaded
+rclone copy results/ gdrive:mss-results/
+echo "  ✓ Final sync to gdrive:mss-results/ complete"
