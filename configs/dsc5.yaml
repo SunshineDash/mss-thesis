@@ -1,0 +1,53 @@
+experiment:
+  name: dsc5
+  seed: 42
+  output_dir: results
+
+data:
+  dataset: musdb18hq
+  root: data/musdb18hq
+  sample_rate: 44100
+  audio_channels: 2
+  segment_seconds: 4.0
+  sources:
+    - vocals
+    - drums
+    - bass
+    - other
+  batch_size: 4
+  num_workers: 2
+
+model:
+  type: dsc_conv_tasnet
+  num_sources: 4
+  audio_channels: 2
+  encoder_channels: 512
+  bottleneck_channels: 128
+  hidden_channels: 512
+  skip_channels: 128
+  num_blocks: 8
+  num_repeats: 3
+  kernel_size: 3
+  encoder_kernel_size: 16
+  encoder_stride: 8
+  causal: false
+  dsc_layers: 5            # replace first 5 / 24 temporal blocks with DSC
+
+training:
+  epochs: 100
+  learning_rate: 0.001
+  weight_decay: 0.0
+  loss: si_sdr
+  grad_clip_norm: 5.0
+  device: auto
+  checkpoint_dir: checkpoints/dsc5
+
+evaluation:
+  chunk_size: 65536
+  hop_size: 32768
+  metrics:
+    - si_sdr
+    - sdr
+    - sir
+    - sar
+  save_csv: results/dsc5_metrics.csv

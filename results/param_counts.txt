@@ -1,0 +1,9 @@
+BaseConvTasNet params: 24,300,721
+
+baseline (L=0): 24,300,721 params  (+0.0% vs baseline)
+DSC-5  (L=5): 21,689,521 params  (+10.7% vs baseline)
+DSC-10 (L=10): 19,078,321 params  (+21.5% vs baseline)
+DSC-20 (L=20): 13,855,921 params  (+43.0% vs baseline)
+DSC-full (L=24): 11,766,961 params  (+51.6% vs baseline)
+
+Ablation param counts: OK

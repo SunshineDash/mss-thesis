@@ -1,0 +1,56 @@
+# ============================================================
+# AudioSepAblationStudy — .gitignore
+# ============================================================
+
+# --- Python -------------------------------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.env
+
+# --- Jupyter ------------------------------------------------
+.ipynb_checkpoints/
+
+# --- Dataset ------------------------------------------------
+data/
+MUSDB18-HQ/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.stem.mp4
+
+# --- Checkpoints & weights ----------------------------------
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# --- Results (CSV остаются, большие файлы нет) --------------
+results/*.json
+# results/ НЕ исключаем — CSV с метриками нужны в репо
+
+# --- Logs ---------------------------------------------------
+logs/
+*.log
+wandb/
+
+# --- OS & editor --------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
