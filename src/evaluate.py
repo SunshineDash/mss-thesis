@@ -162,8 +162,8 @@ def evaluate(config_path: str | Path, checkpoint_path: str | Path) -> None:
         for s_idx, src_name in enumerate(sources):
             # Per-source SI-SDR
             si_sdr_src = compute_si_sdr(
-                sep_pt[:, s_idx, :, :].reshape(1, C, T_),
-                ref_pt[:, s_idx, :, :].reshape(1, C, T_),
+                sep_pt[:, s_idx, :, :].mean(dim=1, keepdim=True),  # [1, 1, T]
+                ref_pt[:, s_idx, :, :].mean(dim=1, keepdim=True),  # [1, 1, T]
             )
             # Guard against inf SIR (common when there is no interferer energy)
             sir_val = track_scores["sir"][s_idx]
