@@ -64,12 +64,16 @@ class DepthwiseSeparableConv1d(nn.Module):
             groups=hidden_channels,
         )
         self.causal_pad = (kernel_size - 1) * dilation if causal else 0
+        self.prelu = nn.PReLU()
+        self.norm = ChannelwiseLayerNorm(hidden_channels)  # уже есть в файле
         self.pointwise = nn.Conv1d(hidden_channels, in_channels, kernel_size=1)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         if self.causal_pad > 0:
             x = nn.functional.pad(x, (self.causal_pad, 0))
-        return self.pointwise(self.depthwise(x))
+        h = self.depthwise(x)
+        h = self.norm(self.prelu(h))   # ← добавлено
+        return self.pointwise(h)
 
 
 class TemporalBlock(nn.Module):
