@@ -101,13 +101,12 @@ def run_epoch(
 
             estimate = model(mixture)  # [B, S, C, T]
 
-            # Flatten channel dim for loss/metric: [B, S, C*T] → use last dim
-            # For SI-SDR we treat each (source, channel) pair independently
             B, S, C, T = estimate.shape
-            est_flat = estimate.reshape(B, S * C, T)
-            ref_flat = sources.reshape(B, S * C, T)
+            # Average over channels → [B, S, T] for correct PIT over S=4 sources
+            est_flat = estimate.mean(dim=2)   # [B, S, T]
+            ref_flat = sources.mean(dim=2)    # [B, S, T]
 
-            loss = si_sdr_loss(est_flat, ref_flat, permutation_invariant=pit)
+            loss = si_sdr_loss(est_flat, ref_flat, permutation_invariant=True)
             si_sdr_val = compute_si_sdr(est_flat.detach(), ref_flat)
 
             if is_train:

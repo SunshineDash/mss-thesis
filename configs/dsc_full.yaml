@@ -39,7 +39,7 @@ training:
   epochs: 100
   learning_rate: 0.001
   weight_decay: 0.0
-  loss: si_sdr
+  loss: pit_si_sdr
   grad_clip_norm: 5.0
   device: auto
   checkpoint_dir: checkpoints/dsc_full
