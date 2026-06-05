@@ -177,12 +177,21 @@ def train(config_path: str | Path, resume: bool = False) -> None:
     # ------------------------------------------------------------------ #
     start_epoch = 0
     best_val_loss = float("inf")
+    best_val_si_sdr = float("-inf")
     latest_path = checkpoint_dir / "latest.pt"
     if resume and latest_path.exists():
         ckpt = load_checkpoint(latest_path, model, optimizer, device)
         start_epoch = int(ckpt.get("epoch", 0)) + 1
         best_val_loss = float(ckpt.get("best_val_loss", float("inf")))
-        print(f"Resumed from {latest_path} — starting at epoch {start_epoch}")
+        best_val_si_sdr = float(ckpt.get("best_val_si_sdr", float("-inf")))
+        if best_val_loss == float("inf") or best_val_si_sdr == float("-inf"):
+            print(f"⚠️  Resumed from {latest_path} — epoch {start_epoch}, "
+                  f"best_val_loss={best_val_loss if best_val_loss != float('inf') else 'N/A'}, "
+                  f"best_val_si_sdr={'N/A' if best_val_si_sdr == float('-inf') else f'{best_val_si_sdr:.2f} dB'}"
+                  f"  (criteria NOT restored, will be re-tracked)")
+        else:
+            print(f"✓ Resumed from {latest_path} — epoch {start_epoch}, "
+                  f"best_val_loss={best_val_loss:.4f}, best_val_si_sdr={best_val_si_sdr:.2f} dB")
 
     # ------------------------------------------------------------------ #
     # Datasets                                                             #
@@ -271,22 +280,32 @@ def train(config_path: str | Path, resume: bool = False) -> None:
             "lr": lr_current,
         })
 
-        # Save latest checkpoint
+        # Save latest checkpoint (includes best_val_si_sdr for resume)
         save_checkpoint(
             checkpoint_dir / "latest.pt",
             model, optimizer, epoch, best_val_loss, config, seed,
+            extra={"best_val_si_sdr": best_val_si_sdr},
         )
 
-        # Save best checkpoint
-        if val_loss < best_val_loss:
-            best_val_loss = val_loss
+        # Save checkpoint every 10 epochs as safety net
+        if (epoch + 1) % 10 == 0:
+            save_checkpoint(
+                checkpoint_dir / f"epoch_{epoch+1:03d}.pt",
+                model, optimizer, epoch, best_val_loss, config, seed,
+                extra={"best_val_si_sdr": best_val_si_sdr},
+            )
+
+        # Save best checkpoint by val_si_sdr
+        if val_si_sdr > best_val_si_sdr:
+            best_val_si_sdr = val_si_sdr
             save_checkpoint(
                 checkpoint_dir / "best.pt",
                 model, optimizer, epoch, best_val_loss, config, seed,
+                extra={"best_val_si_sdr": best_val_si_sdr},
             )
-            print(f"  ✓ New best val_loss={best_val_loss:.4f} — saved best.pt")
+            print(f"  ✓ New best val_si_sdr={best_val_si_sdr:.2f} dB — saved best.pt")
 
-    print(f"\nTraining complete. Best val_loss: {best_val_loss:.4f}")
+    print(f"\nTraining complete. Best val_loss: {best_val_loss:.4f}  |  Best val_si_sdr: {best_val_si_sdr:.2f} dB")
     print(f"Checkpoints: {checkpoint_dir}")
     print(f"Training log: {log_csv}")
 
