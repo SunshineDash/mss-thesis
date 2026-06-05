@@ -295,15 +295,15 @@ def train(config_path: str | Path, resume: bool = False) -> None:
                 extra={"best_val_si_sdr": best_val_si_sdr},
             )
 
-        # Save best checkpoint by val_si_sdr
-        if val_si_sdr > best_val_si_sdr:
-            best_val_si_sdr = val_si_sdr
+        # Save best checkpoint by val_loss
+        if val_loss < best_val_loss:
+            best_val_loss = val_loss
             save_checkpoint(
                 checkpoint_dir / "best.pt",
                 model, optimizer, epoch, best_val_loss, config, seed,
-                extra={"best_val_si_sdr": best_val_si_sdr},
+                extra={"best_val_si_sdr": best_val_si_sdr, "val_loss": val_loss},
             )
-            print(f"  ✓ New best val_si_sdr={best_val_si_sdr:.2f} dB — saved best.pt")
+            print(f"  ✓ New best val_loss={best_val_loss:.4f} — saved best.pt")
 
     print(f"\nTraining complete. Best val_loss: {best_val_loss:.4f}  |  Best val_si_sdr: {best_val_si_sdr:.2f} dB")
     print(f"Checkpoints: {checkpoint_dir}")
