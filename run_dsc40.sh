@@ -22,8 +22,8 @@ echo ""
 echo "========================================================="
 echo "  DSC-40 — Sync to Google Drive"
 echo "========================================================="
-rclone copy results/ gdrive:mss-results/ --progress -P
-rclone copy checkpoints/ gdrive:mss-checkpoints/ --progress -P
+rclone copy results/ gdrive:mss-results15/ --progress -P
+rclone copy checkpoints/ gdrive:mss-checkpoints15/ --progress -P
 echo ""
 
 # =============================================================
@@ -45,8 +45,8 @@ echo ""
 echo "========================================================="
 echo "  DSC-48 — Sync to Google Drive"
 echo "========================================================="
-rclone copy results/ gdrive:mss-results/ --progress -P
-rclone copy checkpoints/ gdrive:mss-checkpoints/ --progress -P
+rclone copy results/ gdrive:mss-results15/ --progress -P
+rclone copy checkpoints/ gdrive:mss-checkpoints15/ --progress -P
 echo ""
 
 echo "========================================================="
