@@ -1,0 +1,49 @@
+data:
+  audio_channels: 2
+  batch_size: 2
+  dataset: musdb18hq
+  num_workers: 2
+  root: data/musdb18hq
+  sample_rate: 44100
+  segment_seconds: 2.0
+  sources:
+  - vocals
+  - drums
+  - bass
+  - other
+evaluation:
+  chunk_size: 65536
+  hop_size: 32768
+  metrics:
+  - si_sdr
+  - sdr
+  - sir
+  - sar
+  save_csv: results/dsc48_metrics.csv
+experiment:
+  name: dsc48
+  output_dir: results
+  seed: 42
+model:
+  audio_channels: 2
+  bottleneck_channels: 128
+  causal: false
+  dsc_layers: 48
+  encoder_channels: 512
+  encoder_kernel_size: 16
+  encoder_stride: 8
+  hidden_channels: 512
+  kernel_size: 3
+  num_blocks: 8
+  num_repeats: 6
+  num_sources: 4
+  skip_channels: 128
+  type: dsc_conv_tasnet
+training:
+  checkpoint_dir: checkpoints/dsc48
+  device: auto
+  epochs: 100
+  grad_clip_norm: 5.0
+  learning_rate: 0.001
+  loss: pit_si_sdr
+  weight_decay: 0.0
