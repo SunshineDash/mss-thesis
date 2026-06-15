@@ -1,0 +1,6 @@
+config,params_M,macs_fvcore_GMACs,reduction_pct,criterion_5gmacs
+L=0,23.97,66.191,—,False
+L=5,21.36,59.024,10.8,False
+L=10,18.75,51.857,21.7,False
+L=20,13.53,37.523,43.3,False
+L=24,11.44,31.790,52.0,False
