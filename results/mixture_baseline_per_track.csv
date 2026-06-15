@@ -1,0 +1,201 @@
+experiment,seed,checkpoint,track,source,si_sdr,sdr,sir,sar,isr,params,inference_time_ms
+mixture_baseline,0,none (mixture-as-estimate),Al James - Schoolboy Facination,vocals,nan,-1.3722117736405508,nan,-1.4304752988945428,33.750406346446454,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Al James - Schoolboy Facination,drums,nan,-7.537576005610126,nan,-7.431638364689634,29.00244717767847,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Al James - Schoolboy Facination,bass,nan,-5.357194219782225,nan,-4.575098135308371,5.041345395736444,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Al James - Schoolboy Facination,other,nan,-6.182194535285631,nan,-6.131535160788987,23.387169817106525,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),AM Contra - Heart Peripheral,vocals,nan,-5.838893305383584,nan,-5.84316556877811,31.563733083986413,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),AM Contra - Heart Peripheral,drums,nan,-1.5802390790193988,nan,-1.5620490247221395,34.355902212472486,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),AM Contra - Heart Peripheral,bass,nan,-10.509904758294681,nan,-10.184787083921854,11.355160319096111,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),AM Contra - Heart Peripheral,other,nan,-6.598677714543661,nan,-6.604771783390701,29.00235288893277,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Angels In Amplifiers - I'm Alright,vocals,nan,-3.3025889810829816,nan,-3.3706210591309804,28.303118416608296,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Angels In Amplifiers - I'm Alright,drums,nan,-6.843088489475699,nan,-6.823116971387432,31.667556871938764,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Angels In Amplifiers - I'm Alright,bass,nan,-7.943272844898816,nan,-4.60275940745495,-0.41705711283635155,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Angels In Amplifiers - I'm Alright,other,nan,-2.78193373715618,nan,-2.847248992189922,29.779808342125058,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Arise - Run Run Run,vocals,nan,-8.745629734786007,nan,-8.666236596322932,28.01273001441457,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Arise - Run Run Run,drums,nan,-8.17374814132665,nan,-8.246795266138204,25.710054042829064,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Arise - Run Run Run,bass,nan,-2.584203941410639,nan,-0.10602590937528784,-15.7797718354412,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Arise - Run Run Run,other,nan,-1.3647317736852944,nan,-1.4336756313358514,26.89235804460497,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Ben Carrigan - We'll Talk About It All Tonight,vocals,nan,-6.610435399743045,nan,-6.483329140642486,26.232326618312783,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Ben Carrigan - We'll Talk About It All Tonight,drums,nan,-3.0707402605123395,nan,-3.046747233789387,32.926334194341734,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Ben Carrigan - We'll Talk About It All Tonight,bass,nan,-4.202988131567458,nan,-4.172068254671364,27.81081367697146,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Ben Carrigan - We'll Talk About It All Tonight,other,nan,-3.3931126167385024,nan,-3.3847038330727948,29.655445656691217,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),BKS - Bulldozer,vocals,nan,-10.11499137926517,nan,-9.988472611202594,28.181061504614803,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),BKS - Bulldozer,drums,nan,-1.4190237530692007,nan,-1.4390699383090697,38.821185710268594,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),BKS - Bulldozer,bass,nan,-5.714836550694043,nan,-1.52479122021402,-8.335661511968832,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),BKS - Bulldozer,other,nan,-6.857114950189924,nan,-6.811429289701127,30.058552505937367,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),BKS - Too Much,vocals,nan,-3.60042686545784,nan,-3.5982653782313108,36.31328945784486,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),BKS - Too Much,drums,nan,-4.371449231278543,nan,-4.314507372807262,35.57775906038199,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),BKS - Too Much,bass,nan,-3.2360271281070236,nan,-0.21359283790770872,-12.123440275728484,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),BKS - Too Much,other,nan,-7.816692993072893,nan,-7.723277695915294,30.41996300789034,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Bobby Nobody - Stitch Up,vocals,nan,-4.753008062504091,nan,-4.763237436025982,33.31718723964521,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Bobby Nobody - Stitch Up,drums,nan,-6.799131513483263,nan,-6.8155520392119495,29.438057996052272,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Bobby Nobody - Stitch Up,bass,nan,-5.043399857784239,nan,-4.936763752393905,23.287517032532303,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Bobby Nobody - Stitch Up,other,nan,-3.6096662930213745,nan,-3.6349624182047706,32.49682200760016,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Buitraker - Revo X,vocals,nan,-9.072326395069407,nan,-9.102968464460268,31.410609350887455,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Buitraker - Revo X,drums,nan,-0.661899247794967,nan,-0.7082968679236907,30.829104492382065,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Buitraker - Revo X,bass,nan,-5.829642249335198,nan,-1.7622525006095535,-6.182202959560618,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Buitraker - Revo X,other,nan,-6.171462942231772,nan,-6.176763969617984,32.31558846120121,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Carlos Gonzalez - A Place For Us,vocals,nan,-2.054764922296517,nan,-2.0326651291377393,33.287868627448105,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Carlos Gonzalez - A Place For Us,drums,nan,-6.598956813970277,nan,-6.575136091762413,32.93256370063811,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Carlos Gonzalez - A Place For Us,bass,nan,-16.501520452242573,nan,-15.684796521391956,18.94759692279041,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Carlos Gonzalez - A Place For Us,other,nan,-2.367288162115351,nan,-2.34216511021705,31.982799718617713,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Cristina Vane - So Easy,vocals,nan,-3.572618696095961,nan,-3.559998950214788,19.609274814287872,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Cristina Vane - So Easy,drums,nan,-1.6696040327590225,nan,-1.6878955732595804,38.80040699037178,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Cristina Vane - So Easy,bass,nan,-8.30190310916719,nan,-5.385405022107063,-1.3596560190784752,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Cristina Vane - So Easy,other,nan,-6.198783575171021,nan,-6.304573881978076,26.98298800745187,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Detsky Sad - Walkie Talkie,vocals,nan,-2.9280724701263745,nan,-2.9367190330376785,30.995435188657204,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Detsky Sad - Walkie Talkie,drums,nan,2.3843485096797403,nan,2.373286648191173,35.41182157731664,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Detsky Sad - Walkie Talkie,bass,nan,-12.07358917300046,nan,-12.48633794867743,17.313909678585674,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Detsky Sad - Walkie Talkie,other,nan,-4.998269364502687,nan,-5.045406939960554,28.562446164679393,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Enda Reilly - Cur An Long Ag Seol,vocals,nan,-3.879776163569124,nan,-0.8015304952916705,-8.39099291468374,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Enda Reilly - Cur An Long Ag Seol,drums,nan,-3.3478400298290554,nan,-2.9700195175301483,15.409637408063087,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Enda Reilly - Cur An Long Ag Seol,bass,nan,-5.795430796765237,nan,-5.6374308263097115,27.090648731376948,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Enda Reilly - Cur An Long Ag Seol,other,nan,-5.510759307756612,nan,-5.490526496816778,29.013197183482788,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Forkupines - Semantics,vocals,nan,-6.418044444838479,nan,-6.372219681197749,30.952592406814613,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Forkupines - Semantics,drums,nan,0.7648681957488802,nan,0.757817493173663,41.17749645778419,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Forkupines - Semantics,bass,nan,-9.30608575851329,nan,-9.270529522755929,23.044036315442188,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Forkupines - Semantics,other,nan,-4.873791635116534,nan,-4.865287595495423,32.3614285356743,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Georgia Wonder - Siren,vocals,nan,-4.308863523576903,nan,-4.3114254560983705,29.463591367941227,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Georgia Wonder - Siren,drums,nan,-4.270169793995322,nan,-4.321196379191167,14.548636684934076,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Georgia Wonder - Siren,bass,nan,-5.162515040683335,nan,-3.4062310509676434,7.3777582309210485,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Georgia Wonder - Siren,other,nan,-4.305124020633352,nan,-4.316163212107144,25.39384408269487,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Girls Under Glass - We Feel Alright,vocals,nan,-8.308575784424583,nan,-8.314292019084029,29.721971186891235,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Girls Under Glass - We Feel Alright,drums,nan,-2.071749496946737,nan,-2.150798197186549,27.532024191176635,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Girls Under Glass - We Feel Alright,bass,nan,-4.30827511046493,nan,-4.4594111323661965,23.670660768122296,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Girls Under Glass - We Feel Alright,other,nan,-4.051418309142717,nan,-4.059790268595112,33.52906705471244,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Hollow Ground - Ill Fate,vocals,nan,-8.822624683315654,nan,-8.824930133883752,31.58074002792761,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Hollow Ground - Ill Fate,drums,nan,-7.0119903888860655,nan,-6.981049730348187,31.442677469359225,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Hollow Ground - Ill Fate,bass,nan,-5.64216564342059,nan,-5.616787927720287,23.905797693673154,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Hollow Ground - Ill Fate,other,nan,0.9569959933926488,nan,0.9694730685606078,34.61079443305153,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),James Elder & Mark M Thompson - The English Actor,vocals,nan,-4.21593911180291,nan,-4.231263602985466,28.09905880181568,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),James Elder & Mark M Thompson - The English Actor,drums,nan,-4.875657717204098,nan,-4.911120350255459,34.620031357818895,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),James Elder & Mark M Thompson - The English Actor,bass,nan,-9.873874357914632,nan,-1.265895977491208,-13.068080490853685,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),James Elder & Mark M Thompson - The English Actor,other,nan,-2.980950423731137,nan,-2.988608744225587,33.3305104523709,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Juliet's Rescue - Heartbeats,vocals,nan,-6.533737977614756,nan,-6.5155062171295794,31.17772545482595,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Juliet's Rescue - Heartbeats,drums,nan,0.027157257069294654,nan,0.027132233283518388,40.53610879732936,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Juliet's Rescue - Heartbeats,bass,nan,-12.86414961382317,nan,-12.694395191971653,23.5584921150237,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Juliet's Rescue - Heartbeats,other,nan,-4.3993683376851145,nan,-4.379076242698274,36.736978400162144,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Little Chicago's Finest - My Own,vocals,nan,-6.30239564249714,nan,-6.30289700947566,30.297945830756376,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Little Chicago's Finest - My Own,drums,nan,3.7627076322380413,nan,3.7716308276459882,31.011694555222533,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Little Chicago's Finest - My Own,bass,nan,-12.423206037156483,nan,-12.233015318743973,15.101218441762175,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Little Chicago's Finest - My Own,other,nan,-12.931434384098658,nan,-12.634594765822523,12.265424266870548,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Louis Cressy Band - Good Time,vocals,nan,-4.611606664470209,nan,-4.572344004727396,29.78280998973841,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Louis Cressy Band - Good Time,drums,nan,-2.8417233533040234,nan,-2.8562077527586043,36.716211835390524,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Louis Cressy Band - Good Time,bass,nan,-8.42023763697365,nan,-4.961475558158652,-3.022736429941873,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Louis Cressy Band - Good Time,other,nan,-1.229422928158136,nan,-1.1990740372539617,34.388102119190364,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Lyndsey Ollard - Catching Up,vocals,nan,-1.6848634236412143,nan,-1.6898744244007529,38.44643924858855,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Lyndsey Ollard - Catching Up,drums,nan,-8.915583317313523,nan,-8.831410908237082,26.036869798857538,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Lyndsey Ollard - Catching Up,bass,nan,-10.22667116995403,nan,-7.966523658644172,2.2866288667492647,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Lyndsey Ollard - Catching Up,other,nan,-4.1681625469408266,nan,-4.199644103629353,27.09802207395345,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),M.E.R.C. Music - Knockout,vocals,nan,-1.735946845651811,nan,-1.7443008542456575,35.482837771588734,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),M.E.R.C. Music - Knockout,drums,nan,-5.102039887693699,nan,-5.127594520838277,28.24207075774916,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),M.E.R.C. Music - Knockout,bass,nan,-8.230778247319627,nan,-3.094046902169856,-6.222804586063955,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),M.E.R.C. Music - Knockout,other,nan,-4.699954714254872,nan,-4.625170814308086,19.94659596640936,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Moosmusic - Big Dummy Shake,vocals,nan,-5.499335524658071,nan,-5.524253257142464,36.497739987273235,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Moosmusic - Big Dummy Shake,drums,nan,-1.859143143386624,nan,-1.8265671686746334,34.03914354962879,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Moosmusic - Big Dummy Shake,bass,nan,-6.946285984014404,nan,-6.821808400024249,18.797254130516365,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Moosmusic - Big Dummy Shake,other,nan,-6.971596188138321,nan,-6.969979522890543,26.37136229578236,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Motor Tapes - Shore,vocals,nan,-7.652633743284609,nan,-7.594027514074496,25.33263269712375,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Motor Tapes - Shore,drums,nan,-12.252538903312626,nan,-12.695066057315259,18.345809885441305,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Motor Tapes - Shore,bass,nan,-7.64278701318843,nan,-7.866727869545568,22.60973046055117,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Motor Tapes - Shore,other,nan,2.6882749759127282,nan,2.7629550386585566,31.42792429086297,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Mu - Too Bright,vocals,nan,-5.276330341262049,nan,-5.338978184543861,31.436834694132646,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Mu - Too Bright,drums,nan,0.028641302346157794,nan,0.03329819196257032,38.61069937050872,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Mu - Too Bright,bass,nan,-8.601107700547452,nan,-0.9823421494211841,-13.773062623032189,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Mu - Too Bright,other,nan,-6.187991609750454,nan,-6.167872856739709,26.294657523770837,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Nerve 9 - Pray For The Rain,vocals,nan,-3.3127152259663397,nan,-3.257351622302215,28.78297554352327,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Nerve 9 - Pray For The Rain,drums,nan,-7.816343929070026,nan,-7.811069181088985,31.86649592215654,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Nerve 9 - Pray For The Rain,bass,nan,-6.191146448473759,nan,-1.6440087605638074,-7.985396399574567,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Nerve 9 - Pray For The Rain,other,nan,-1.6521393022846036,nan,-1.5749494288619126,30.61350268354008,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),PR - Happy Daze,vocals,nan,-61.61869330668499,nan,-47.29147503353203,-14.147130079896332,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),PR - Happy Daze,drums,nan,8.781631918549241,nan,8.818704137559667,30.93646563499275,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),PR - Happy Daze,bass,nan,-9.639343468349495,nan,-8.081488894139973,-1.835711926280497,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),PR - Happy Daze,other,nan,-14.502912905784756,nan,-13.910709798897283,8.053028781071362,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),PR - Oh No,vocals,nan,-34.2844347182303,nan,-32.073371011440955,-1.6123648759905773,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),PR - Oh No,drums,nan,3.1792032395637913,nan,2.630783727156839,8.952069352866673,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),PR - Oh No,bass,nan,-4.913828294786666,nan,-3.8317536048058733,9.407184659532716,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),PR - Oh No,other,nan,-7.744346495776757,nan,-9.547992959546105,7.164310310016887,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Punkdisco - Oral Hygiene,vocals,nan,-10.447646596525145,nan,-10.41534700492235,24.582020344462556,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Punkdisco - Oral Hygiene,drums,nan,-0.6600371602071956,nan,-0.6106308338961723,30.289720205350278,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Punkdisco - Oral Hygiene,bass,nan,-1.4379867676258744,nan,-1.2555728063309959,26.65425590715757,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Punkdisco - Oral Hygiene,other,nan,-15.599672355110656,nan,-15.622020683235597,24.238605988817838,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Raft Monk - Tiring,vocals,nan,-6.858864300065979,nan,-6.865559515729037,28.04211734525673,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Raft Monk - Tiring,drums,nan,-6.509168085060074,nan,-6.483094053041936,31.790592652739523,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Raft Monk - Tiring,bass,nan,-4.106093890809625,nan,-0.2533290366151957,-13.139041033085414,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Raft Monk - Tiring,other,nan,-3.2029189331402965,nan,-3.2180905786344622,32.54298428012038,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Sambasevam Shanmugam - Kaathaadi,vocals,nan,-1.2643691070618281,nan,-1.219413322418131,35.932092328725645,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Sambasevam Shanmugam - Kaathaadi,drums,nan,-9.444627220512924,nan,-9.785688899438783,23.308291799221045,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Sambasevam Shanmugam - Kaathaadi,bass,nan,-0.956052944986115,nan,-1.0315325090331848,29.493287278488612,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Sambasevam Shanmugam - Kaathaadi,other,nan,-2.961474442015203,nan,-2.916025211533841,32.747292885933426,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Secretariat - Borderline,vocals,nan,-4.518266832848923,nan,-4.489738143802254,28.713640033441493,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Secretariat - Borderline,drums,nan,-10.026756855623185,nan,-9.97229987689315,28.15685643761192,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Secretariat - Borderline,bass,nan,-8.201274757652413,nan,-8.361165208511128,23.760012262877915,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Secretariat - Borderline,other,nan,1.0182915146265399,nan,0.9462135603572769,35.637164178368266,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Secretariat - Over The Top,vocals,nan,-6.109375010200121,nan,-6.107948820076451,28.552097006261867,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Secretariat - Over The Top,drums,nan,-5.484952557279977,nan,-5.485895417130445,33.036783431519154,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Secretariat - Over The Top,bass,nan,-1.2645432361081357,nan,-1.2341594740744648,31.944870549265826,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Secretariat - Over The Top,other,nan,-4.613099731730033,nan,-4.6044441994774985,33.98013532471024,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Side Effects Project - Sing With Me,vocals,nan,-1.5211914079957183,nan,-1.5094511738125316,38.361157038349056,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Side Effects Project - Sing With Me,drums,nan,-0.4614927584629757,nan,-0.49539977685113723,27.653774589289128,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Side Effects Project - Sing With Me,bass,nan,-9.968982342362452,nan,-9.689336443828058,12.018178686144882,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Side Effects Project - Sing With Me,other,nan,-18.799528942754755,nan,-18.627086972050655,18.603039799982245,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Signe Jakobsen - What Have You Done To Me,vocals,nan,-2.593074267540114,nan,-2.5619947508727736,34.06039377797475,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Signe Jakobsen - What Have You Done To Me,drums,nan,-8.657584312224879,nan,-8.662512946007807,27.638140164093986,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Signe Jakobsen - What Have You Done To Me,bass,nan,-9.586188063433994,nan,-1.8142310640110282,-14.774619688468638,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Signe Jakobsen - What Have You Done To Me,other,nan,-2.5162741536552558,nan,-2.5133398311441972,32.963993707035506,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Skelpolu - Resurrection,vocals,nan,-7.687651874960546,nan,-7.123180939887149,9.701975516394139,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Skelpolu - Resurrection,drums,nan,-5.710625849591302,nan,-5.671882400961218,22.694399993511297,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Skelpolu - Resurrection,bass,nan,2.7246657151060685,nan,2.776644182351242,20.861802741579414,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Skelpolu - Resurrection,other,nan,-8.445898873116938,nan,-7.7452502689223515,11.425747168447856,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Speak Softly - Broken Man,vocals,nan,-8.44869434962889,nan,-8.516131069043688,24.528011982355274,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Speak Softly - Broken Man,drums,nan,-5.337618577751339,nan,-5.347533623263409,32.933453361705844,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Speak Softly - Broken Man,bass,nan,-0.23467556604533613,nan,-0.3078722154845253,28.58674962332576,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Speak Softly - Broken Man,other,nan,-3.2672082419638926,nan,-3.231276254958013,26.37339233828625,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Speak Softly - Like Horses,vocals,nan,-2.8344158225846967,nan,-2.80325875289655,32.11800604885494,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Speak Softly - Like Horses,drums,nan,-8.658034940691214,nan,-8.504623749930165,27.58244773784275,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Speak Softly - Like Horses,bass,nan,-1.1886020429963906,nan,-1.109501734576919,25.665928025053223,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Speak Softly - Like Horses,other,nan,-3.016071463068524,nan,-2.9599548013813504,18.03115171398453,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Doppler Shift - Atrophy,vocals,nan,-6.534825917304171,nan,-6.495360993281318,37.260074683917225,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Doppler Shift - Atrophy,drums,nan,-2.6179467507616754,nan,-2.5975576681891646,37.66338799116696,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Doppler Shift - Atrophy,bass,nan,-10.956186188249777,nan,-5.436465557618931,-7.618619861419848,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Doppler Shift - Atrophy,other,nan,-3.820865396465318,nan,-3.8051312974858194,35.48497612572084,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Easton Ellises (Baumi) - SDRNR,vocals,nan,-4.445389278881077,nan,-4.44965137898372,29.56175116161106,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Easton Ellises (Baumi) - SDRNR,drums,nan,-3.0689617262389945,nan,-3.061503697366687,33.474615910235606,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Easton Ellises (Baumi) - SDRNR,bass,nan,-6.633771731903577,nan,-6.6604303643775555,29.988088837696722,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Easton Ellises (Baumi) - SDRNR,other,nan,-5.592741335939625,nan,-5.58690356829956,26.878164512792573,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Easton Ellises - Falcon 69,vocals,nan,-5.435612897574786,nan,-5.448366344731596,31.586705450360785,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Easton Ellises - Falcon 69,drums,nan,-3.009090961125703,nan,-3.010689668129724,32.5489256485282,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Easton Ellises - Falcon 69,bass,nan,-5.841512756332532,nan,-5.891791234719994,31.538634672935128,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Easton Ellises - Falcon 69,other,nan,-4.908100429842216,nan,-4.950326695095897,26.231483536217848,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Long Wait - Dark Horses,vocals,nan,-5.021274563756758,nan,-5.048335212903394,30.863813005626554,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Long Wait - Dark Horses,drums,nan,-7.374629546501774,nan,-7.41976776981668,30.820146892532108,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Long Wait - Dark Horses,bass,nan,-3.6741249369280755,nan,-3.6086074076043433,30.764901058523463,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Long Wait - Dark Horses,other,nan,-3.234635333428089,nan,-3.1881567035291365,31.620771764436245,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Mountaineering Club - Mallory,vocals,nan,-5.199233106171402,nan,-5.1394488057240055,32.92574345982966,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Mountaineering Club - Mallory,drums,nan,-4.182229598252711,nan,-4.179659857509562,30.040087960712412,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Mountaineering Club - Mallory,bass,nan,-3.3927199974003397,nan,-3.470808970985974,30.518476158722336,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Mountaineering Club - Mallory,other,nan,-6.270305129548017,nan,-6.319951137658379,26.005798817334515,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Sunshine Garcia Band - For I Am The Moon,vocals,nan,-3.6568650610236206,nan,-3.649110409054691,39.89483287609724,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Sunshine Garcia Band - For I Am The Moon,drums,nan,-3.092055391647129,nan,-3.1392933179407168,38.1541810043296,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Sunshine Garcia Band - For I Am The Moon,bass,nan,-3.5023700729108698,nan,-3.5453349662751696,36.18092241208342,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),The Sunshine Garcia Band - For I Am The Moon,other,nan,-13.375665991399421,nan,-11.852279503994312,3.7307993414054783,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Timboz - Pony,vocals,nan,-10.539932939067594,nan,-10.552377684879037,28.37974128453214,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Timboz - Pony,drums,nan,-6.419248465423741,nan,-6.433661847091571,31.72602327954101,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Timboz - Pony,bass,nan,-11.468077606648034,nan,-11.152704953866674,18.3722639413358,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Timboz - Pony,other,nan,2.797683076042308,nan,2.8097928228422346,38.35900765673179,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Tom McKenzie - Directions,vocals,nan,-8.182279648549223,nan,-8.016772996043102,24.527365570297516,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Tom McKenzie - Directions,drums,nan,0.4748540666596931,nan,0.45913228683010854,36.459439272431055,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Tom McKenzie - Directions,bass,nan,-4.7702956780867005,nan,-0.6415469768369554,-11.38246820676737,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Tom McKenzie - Directions,other,nan,-8.224358402320343,nan,-8.363408639767654,20.80329511192747,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Triviul feat. The Fiend - Widow,vocals,nan,-1.6490103493589685,nan,-1.6074194519871083,38.99007807161867,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Triviul feat. The Fiend - Widow,drums,nan,-7.423473370837605,nan,-7.319764502204348,27.723656748747008,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Triviul feat. The Fiend - Widow,bass,nan,-3.3836107436557263,nan,-3.345908708081555,29.97288510609065,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Triviul feat. The Fiend - Widow,other,nan,-8.81732211553307,nan,-8.77880987349455,28.86889182161096,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),We Fell From The Sky - Not You,vocals,nan,-7.957868495181492,nan,-7.888343304834619,30.43926151457781,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),We Fell From The Sky - Not You,drums,nan,-0.9984125691621402,nan,-0.9590697943007007,37.424772815349115,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),We Fell From The Sky - Not You,bass,nan,-12.54993379453844,nan,-10.582048635390596,2.7452695054522795,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),We Fell From The Sky - Not You,other,nan,-1.1435716282578094,nan,-1.118534161918894,35.03565872114766,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Zeno - Signs,vocals,nan,-4.727258242316479,nan,-4.697892015227724,34.157560683933106,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Zeno - Signs,drums,nan,-3.539932265399403,nan,-3.5635758850792856,32.157181517728674,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Zeno - Signs,bass,nan,-10.228714436241237,nan,-10.469894918063773,20.18460485797158,0,0.0
+mixture_baseline,0,none (mixture-as-estimate),Zeno - Signs,other,nan,-1.8247043155655103,nan,-1.8748347998256487,32.93570987284649,0,0.0

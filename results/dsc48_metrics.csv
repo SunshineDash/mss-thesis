@@ -1,0 +1,2 @@
+experiment,seed,checkpoint,epoch,si_sdr,sdr,sir,sar,isr,params,inference_time_ms
+dsc48,42,checkpoints/dsc48/best.pt,92,-13.199291687458754,-7.863134729302852,inf,-9.16036990977037,-4.771818680906798,22955281,61693.886189898476

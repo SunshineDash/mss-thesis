@@ -1,0 +1,2 @@
+experiment,seed,checkpoint,epoch,si_sdr,sdr,sir,sar,isr,params,inference_time_ms
+baseline,42,checkpoints/baseline/best.pt,82,-2.6901915726065635,-4.6574586820035435,inf,-2.1130714895882408,0.6669627159809357,24300721,34487.09446363384
