@@ -50,3 +50,4 @@ Thumbs.db
 *.tmp
 *.bak
 check_result*.txt
+scripts/_agg_temp.py
